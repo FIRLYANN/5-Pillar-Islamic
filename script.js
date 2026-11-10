@@ -26,6 +26,10 @@ document.querySelectorAll('.main-nav a').forEach(link => link.addEventListener('
   mainNav.classList.remove('open');
   menuToggle.setAttribute('aria-expanded', 'false');
 }));
+document.querySelectorAll('.back-to-top').forEach(link => link.addEventListener('click', event => {
+  event.preventDefault();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}));
 
 // Menandai menu sesuai bagian yang sedang dibaca.
 const navLinks = [...document.querySelectorAll('.nav-link')];
