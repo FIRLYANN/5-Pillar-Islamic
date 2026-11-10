@@ -43,3 +43,20 @@ html[data-theme="dark"] .header-cta{background:#286c58}
 html[data-theme="dark"] .btn-primary{background:#286c58}
 html[data-theme="dark"] .btn-primary:hover{background:#347f68}
 @media(max-width:540px){.theme-toggle{width:34px;height:34px;font-size:17px}.site-header{gap:7px}.menu-toggle{margin-right:4px}.header-cta{padding:8px 9px}}
+.brand small,.hero-note,.hero-scroll{color:#526159}
+.pillar-float b,.ethics-card>span,.detail-number,.principle-no{color:#80602e}
+.theme-toggle:hover{color:var(--green)}
+html:not([data-theme="dark"]) .hero-lead,html:not([data-theme="dark"]) .intro-grid>p:last-child,html:not([data-theme="dark"]) .section-description,html:not([data-theme="dark"]) .detail-intro>p:last-child,html:not([data-theme="dark"]) .detail-content>p,html:not([data-theme="dark"]) .detail-columns p,html:not([data-theme="dark"]) .detail-columns li,html:not([data-theme="dark"]) .principle-card p,html:not([data-theme="dark"]) .ethics-card p,html:not([data-theme="dark"]) .related-title small,html:not([data-theme="dark"]) .related-verses>a span,html:not([data-theme="dark"]) .quiz-top>span:last-child,html:not([data-theme="dark"]) .quiz-feedback,html:not([data-theme="dark"]) .quiz-result p,html:not([data-theme="dark"]) .glossary-item p,html:not([data-theme="dark"]) .no-results{color:#526159}
+html:not([data-theme="dark"]) .option.correct{color:#28613c}
+html:not([data-theme="dark"]) .option.incorrect{color:#8e3935}
+.footer-bottom{color:#aab9b1}
+html[data-theme="dark"] .brand small,html[data-theme="dark"] .nav-link{color:#b4c2b8}
+html[data-theme="dark"] .nav-link:hover,html[data-theme="dark"] .nav-link.active{color:#a7d6b7}
+html[data-theme="dark"] .hero-note,html[data-theme="dark"] .hero-scroll{color:#b4c2b8}
+html[data-theme="dark"] .pillar-float b{color:#80602e}
+html[data-theme="dark"] .pillar-float{color:#29453d}
+html[data-theme="dark"] .ethics-card>span,html[data-theme="dark"] .detail-number,html[data-theme="dark"] .principle-no{color:#d5bd85}
+html[data-theme="dark"] .option.selected,html[data-theme="dark"] .btn-quiet{color:#d8e9dc}
+html[data-theme="dark"] .option.correct{color:#b9e2c2}
+html[data-theme="dark"] .option.incorrect{color:#f0b5ae}
+html[data-theme="dark"] .theme-toggle:hover{color:#f0d99f}
